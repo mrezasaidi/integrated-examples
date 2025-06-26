@@ -6,7 +6,7 @@ obfs: #若服务端没有配置混淆密码，此部分必须删除。
 auth: 123a65h7890 #修改为服务端配置的单用户验证密码。若服务端使用多用户密码验证模式，请参考官方示例调整。
 bandwidth:
   up: 20 mbps
-  down: 100 mbps
+  down: 1000 mbps
 socks5:
   listen: 127.0.0.1:1080
 http:
